@@ -27,14 +27,14 @@
   },
   "homepage": "https://github.com/ben-ng/meatloaf",
   "dependencies": {
+    "finite-automata": "^3.4.1",
     "deep-equal": "^0.2.1",
-    "finite-automata": "^3.4.1"
+    "lodash.uniq": "^2.4.1"
   },
   "devDependencies": {
     "tape": "2.x.x",
     "cli-table": "^0.3.0",
     "lodash.keys": "^2.4.1",
-    "lodash.uniq": "^2.4.1",
     "lodash.values": "^2.4.1"
   },
   "testling": {

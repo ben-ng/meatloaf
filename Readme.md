@@ -77,6 +77,8 @@ If there are multiple instructions for a single state/symbol. Then you have a co
 
 ## Visualizing Tables
 
+** You need to install `devDependencies` for this feature. **
+
 The included table2string function outputs an ASCII table for easier debugging.
 
 ```js
