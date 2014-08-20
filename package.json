@@ -1,0 +1,52 @@
+{
+  "name": "meatloaf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/grammar2table",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ben-ng/meatloaf"
+  },
+  "keywords": [
+    "lr",
+    "sr",
+    "slr",
+    "lalr",
+    "parser",
+    "context-free",
+    "stream",
+    "compiler"
+  ],
+  "author": "Ben Ng <me@benng.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ben-ng/meatloaf/issues"
+  },
+  "homepage": "https://github.com/ben-ng/meatloaf",
+  "dependencies": {
+    "deep-equal": "^0.2.1",
+    "finite-automata": "^3.4.1"
+  },
+  "devDependencies": {
+    "tape": "2.x.x",
+    "cli-table": "^0.3.0",
+    "lodash.keys": "^2.4.1",
+    "lodash.uniq": "^2.4.1",
+    "lodash.values": "^2.4.1"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6"
+    ]
+  }
+}
