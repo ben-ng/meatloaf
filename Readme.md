@@ -58,7 +58,7 @@ Output:
 
 `parseTable` is an object keyed by state. Each value is an object keyed by symbol.
 
-```js
+```javascript
 parseTable = {
   'A,C,F': {a:[inst, inst], b:[inst] /* etc... */}
 , 'G,I': {}
@@ -77,11 +77,11 @@ If there are multiple instructions for a single state/symbol. Then you have a co
 
 ## Visualizing Tables
 
-** You need to install `devDependencies` for this feature. **
+**You need to install `devDependencies` for this feature.**
 
 The included table2string function outputs an ASCII table for easier debugging.
 
-```js
+```javascript
 // The output of this command can be seen in the "Usage" section of this Readme
 var table2string = require('beefalo/lib/table2string')
 console.log(table2string(parseTable))
